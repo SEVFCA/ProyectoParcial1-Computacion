@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+body #backBtn {
+  border-radius: 15px;
+  padding: 15px;
+  color: white;
+  display: flex;
+  cursor: pointer;
+}
+
+body #renderScene {
+  display: flex;
+  position: fixed;
+  flex-flow: column;
+  padding: 10px;
+  z-index: 1;
+}
+
+body #renderScene #createAmbientLightBtn {
+  border: 2px solid #ecf0f1;
+  width: 10vw;
+  height: 7vh;
+  margin: 2vw 0;
+  border-radius: 15px;
+  padding: 5px;
+  color: white;
+  background: #10b37c;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  
+}
+
+body #renderScene #createDirectionalLightBtn {
+  border: 2px solid #ecf0f1;
+  width: 10vw;
+  height: 7vh;
+  margin: 2vw 0;
+  border-radius: 15px;
+  padding: 5px;
+  color: white;
+  background: #f39c12;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  
+}
+
+body #renderScene #createPointLightBtn {
+  border: 2px solid #ecf0f1;
+  width: 10vw;
+  height: 7vh;
+  margin: 2vw 0;
+  border-radius: 15px;
+  padding: 5px;
+  color: white;
+  background: #e74c3c;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  
+}
+
+
+body #renderScene #createLightBtn {
+  border: 2px solid #ecf0f1;
+  width: 10vw;
+  height: 7vh;
+  margin: 2vw 0;
+  border-radius: 15px;
+  padding: 5px;
+  color: white;
+  background: #f1c40f;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  
+}
+
+body #renderScene #createSphereBtn{
+  border: 2px solid #ecf0f1;
+  width: 10vw;
+  height: 5vh;
+  margin: 2vw 0;
+  border-radius: 15px;
+  padding: 5px;
+  color: white;
+  background: #12CBC4;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+body #renderScene #createCubeBtn {
+  border: 2px solid #ecf0f1;
+  width: 10vw;
+  height: 5vh;
+  margin: 2vw 0;
+  border-radius: 15px;
+  padding: 5px;
+  color: white;
+  background: #8e44ad;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  
+}
+
+body #content {
+  display: flex;
+  position: fixed;
+  background: #34495e;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+}
+
+body #content .btnOption {
+  border: 10px solid #ecf0f1;
+  width: 15vw;
+  height: 20vh;
+  margin: 2vw;
+  border-radius: 15px;
+  padding: 15px;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+body #content .btnOption:hover {
+  width: 20vw;
+}
+
+body #content .btnOption .title {
+  font-size: 150%;
+  margin-bottom: 2px;
+}
+
+.small {
+  background: #3498db;
+}
+.medium {
+  background: #2ecc71;
+}
+.big {
+  background: #e74c3c;
+}
+.custom {
+  background: #9b59b6;
+}
